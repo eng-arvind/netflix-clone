@@ -1,0 +1,150 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    background-color: black;
+    font-size: 100%;
+   
+}
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+ .back-ground
+ {
+    position: absolute; 
+    height: 100vh;
+    width: 100%;
+    background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
+ }
+.main-container
+{
+   
+    height: 100vh;
+    width: 100%;
+    position: absolute; 
+    font-family:Helvetica, sans-serif;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.first-container
+{
+    width:100%;
+    height: fit-content;
+    position: relative;
+    display: inline-flex;
+}
+.netflix-logo
+{
+    width: fit-content;
+    height: fit-content;
+}
+.netflix-logo img{
+    width: 13rem;
+    height: 8rem;
+    margin-left:3rem;
+}
+.language
+{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 2rem;
+    right: 5%;
+    width: fit-content;
+    height:fit-content;
+   
+    
+
+}
+.language select {
+    width: 6rem;
+    height: 2.5rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: transparent;
+}
+.language button
+{
+    width: 6rem;
+    height: 2.5rem;
+    color: white;
+    margin-left: 3rem;
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.second-container
+{
+    width: 50%;
+    height: 60%;
+    position: relative;
+    color: white;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    vertical-align:middle;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.heading
+{
+    font-size: 65px;
+    font-weight: bold;
+    
+}
+.heading-first
+{
+    margin-top: 8px;
+    font-size: 30px;
+}
+.heading-second
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.email
+{
+    margin-top: 2rem;
+    width: fit-content;
+    border: none;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.eml{
+
+    border: none;
+    height: 4rem;
+    width: 33rem;
+    padding-left: 1rem;
+    border: none;
+    font-size: 1rem;
+
+}
+.btn-getstart
+{
+    background:#e50914;
+    color: white;
+    border: none;
+    border: none;
+    height: 4rem;
+    width: 11rem;
+    font-size: 1rem;
+
+
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
